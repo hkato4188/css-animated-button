@@ -1,0 +1,45 @@
+body {
+    background: #EEF2E6;
+    font-family: 'Lato';
+    color: #7FBCD2;
+  }
+  
+  h1 {
+    font-weight: 300;
+    text-align:center;
+  }
+  
+  .btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background: #3D8361;
+    font-size: 16px;
+    font-weight: 300;
+      color: white;
+    text-transform: uppercase;
+      letter-spacing: 2px;
+    padding: 25px 80px;
+    margin: 0 auto;
+      box-shadow: 0 6px #1C6758;
+    border-radius: 20px;
+  }
+  
+  .btn:hover {
+      box-shadow: 0 4px #1C6758;
+      top: 2px;
+  }
+  
+  .btn:active {
+      box-shadow: 0 0 #1C6758;
+      top: 6px;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
